@@ -96,7 +96,12 @@ h6 {
 .masthead h1 {
     font-size: 4rem;
     margin: 0;
-    padding: 0
+    padding: 0;
+    text-shadow: 2px 2px #6d6d6d3d;
+}
+
+.masthead em {
+    text-shadow: 2px 2px #6d6d6d83;
 }
 
 @media (min-width:992px) {
@@ -226,6 +231,10 @@ h6 {
     font-weight: 700;
     display: block;
     max-width: 30rem
+}
+
+.abtMe h2 {
+    text-shadow: 2px 2px #6d6d6d83;
 }
 
 .portfolio-item {
